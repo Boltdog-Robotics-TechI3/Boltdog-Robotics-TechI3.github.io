@@ -4,6 +4,11 @@ body, html {
     height: 100%;
 }
 
+footer {
+	background-color: gray;
+	color: white;
+}
+
 .topnav {
 	overflow: hidden;
 	background-color: dimgray;
