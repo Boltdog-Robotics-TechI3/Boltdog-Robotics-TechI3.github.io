@@ -4,6 +4,10 @@ body, html {
     height: 100%;
 }
 
+p {
+	font-size: 14pt;
+}
+
 footer {
 	background-color: gray;
 	color: white;
@@ -39,7 +43,7 @@ footer {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: darkgray;
+	background-color: rgb(82, 106, 185);
 	position: relative;
 }
 
