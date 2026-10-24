@@ -67,3 +67,24 @@ footer {
 	text-indent: 2em;
 	line-height: 0px;
 }
+
+.slideshow_cont {
+	height: 25%;
+	background-color: lightgray;
+	position: relative;
+	margin: auto;
+}
+
+.slideshow_img {
+	display: none;
+	animation-name: ss_fade;
+	animation-duration: 2s;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+@keyframes ss_fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
